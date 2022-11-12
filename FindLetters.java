@@ -1,4 +1,4 @@
-package week2.day1;
+package JavaBasic;
 
 public class FindLetters {
 public static void main(String[] args) {
