@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <parameter name="URL" value="http://leaftaps.com/opentaps/"/>
+  <test thread-count="5" name="Test(failed)" verbose="3">
+    <classes>
+      <class name="week5.day1.MergeLead">
+        <methods>
+          <include name="runMergeLead"/>
+        </methods>
+      </class> <!-- week5.day1.MergeLead -->
+      <class name="week5.day1.DeleteLead">
+        <methods>
+          <include name="runDeleteLead"/>
+        </methods>
+      </class> <!-- week5.day1.DeleteLead -->
+      <class name="week5.day1.DuplicateLead">
+        <methods>
+          <include name="runDuplicate"/>
+        </methods>
+      </class> <!-- week5.day1.DuplicateLead -->
+      <class name="week5.day1.EditLead">
+        <methods>
+          <include name="runEditLead"/>
+        </methods>
+      </class> <!-- week5.day1.EditLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

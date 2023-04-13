@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [practice]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="http://leaftaps.com/opentaps/"/>
+  <test thread-count="5" name="Test practice(failed)">
+    <classes>
+      <class name="week5.day1.DeleteLead">
+        <methods>
+          <include name="runDeleteLead"/>
+        </methods>
+      </class> <!-- week5.day1.DeleteLead -->
+    </classes>
+  </test> <!-- Test practice(failed) -->
+</suite> <!-- Failed suite [practice] -->
